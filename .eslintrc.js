@@ -18,5 +18,7 @@ module.exports = {
     // always（默认）：在语句末尾需要分号
     // never：不允许加分号
     semi: [2, "never"],
+   'no-unused-expressions': 'off',
+        '@typescript-eslint/no-explicit-any': 0,
   },
 }
